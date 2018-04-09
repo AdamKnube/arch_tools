@@ -1,0 +1,9 @@
+initramfs initramfs-linux.img followkernel
+initial_turbo=1
+arm_freq=1000
+core_freq=500
+sdram_freq=500
+over_voltage=2
+hdmi_drive=2
+hdmi_group=2
+hdmi_mode=16
