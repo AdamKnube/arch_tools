@@ -60,7 +60,7 @@ while (@packlist) {
   open(PKGFILE, "<", $packinfo) || die "Cannot read from $packinfo!\n";
   my @pdata = <PKGFILE>;
   close(PKGFILE);
-  system("rm -rf $tmpdir");
+  system("rm -rf ./*");
   my @optdeps;
   foreach my $line (@pdata) {
 	if ($line =~ /optdepend = /) { 
